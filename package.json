@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@types/node": "^22.19.0",
+    "@types/node": "^26.6.4",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2",
     "tsx": "^4.20.6",
