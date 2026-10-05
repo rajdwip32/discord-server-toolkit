@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# No public site is deployed in v0.1.0. Set SITE_URL and update this file before deployment.

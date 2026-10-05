@@ -1,0 +1,8 @@
+{
+  "name": "Discord Server Toolkit",
+  "short_name": "DST",
+  "description": "A local-first toolkit for designing and validating Discord server structures.",
+  "display": "standalone",
+  "theme_color": "#1f2937",
+  "background_color": "#ffffff"
+}

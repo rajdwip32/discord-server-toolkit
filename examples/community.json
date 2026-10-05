@@ -1,0 +1,19 @@
+{
+  "server": { "name": "Example Community", "community": true },
+  "roles": [
+    { "name": "@everyone", "position": 0, "permissions": ["VIEW_CHANNEL"] },
+    { "name": "Moderator", "position": 10, "permissions": ["MANAGE_MESSAGES", "KICK_MEMBERS"] }
+  ],
+  "categories": [{ "name": "Information" }, { "name": "Community" }],
+  "channels": [
+    { "name": "welcome", "type": "text", "category": "Information" },
+    {
+      "name": "announcements",
+      "type": "announcement",
+      "category": "Information",
+      "overwrites": [{ "target": "@everyone", "deny": ["SEND_MESSAGES"] }]
+    },
+    { "name": "general", "type": "text", "category": "Community" }
+  ],
+  "moderation": { "verificationLevel": "medium", "explicitContentFilter": "all_members" }
+}
